@@ -1,9 +1,18 @@
 {
   "manifest_version": 3,
   "name": "Touch Chrome — 中键关闭标签",
-  "version": "1.0.0",
-  "description": "在网页上按下鼠标中键时关闭当前标签页。",
+  "version": "1.1.0",
+  "description": "空白处中键关闭当前标签；点在链接上则中键照常新开标签。可设快捷键关闭。",
   "permissions": ["tabs"],
+  "commands": {
+    "close-current-tab": {
+      "suggested_key": {
+        "default": "Alt+Shift+C",
+        "mac": "Alt+Shift+C"
+      },
+      "description": "关闭当前标签页"
+    }
+  },
   "background": {
     "service_worker": "background.js"
   },
