@@ -51,6 +51,11 @@ touch-chrome/
 ├── manifest.json   # Manifest V3 配置
 ├── background.js   # Service worker：关标签、快捷键
 ├── content.js      # 页面内中键逻辑
+├── LICENSE         # MIT 许可证
 └── README.md
 ```
+
+## 许可证
+
+本项目以 [MIT License](./LICENSE) 发布：允许商业与非商业使用、复制、修改、合并、再发布及再许可；需在分发中保留版权声明与许可全文。软件按「原样」提供，不作任何明示或暗示担保。
 
